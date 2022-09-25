@@ -9,8 +9,8 @@
 body{
     font-family: 'Press Start 2P', cursive;
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,0.9855129551820728) 42%, rgba(245,0,255,1) 100%);     
-     /* background-image: url(/imagenes/a1.jpg); */
+    /* background: linear-gradient(180deg, rgba(0,0,0,0.9855129551820728) 42%, rgba(245,0,255,1) 100%);      */
+    background-image: url(/imagenes/a1.jpg);
 
 }
 
