@@ -10,11 +10,12 @@ body{
     font-family: 'Press Start 2P', cursive;
     background: rgb(0,0,0);
     /* background: linear-gradient(180deg, rgba(0,0,0,0.9855129551820728) 42%, rgba(245,0,255,1) 100%);      */
-    background-image: url(/imagenes/a1.jpg);
+    background-image: url(imagenes/a1.jpg);
 
 }
 
 h1{
+    margin: auto;
     font-size: 70px;
     color: rgb(226, 10, 179);
     margin-top: 10px;
