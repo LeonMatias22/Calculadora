@@ -6,7 +6,7 @@
   } */
 
 
-body{
+  body{
     font-family: 'Press Start 2P', cursive;
     background: rgb(0,0,0);
     /* background: linear-gradient(180deg, rgba(0,0,0,0.9855129551820728) 42%, rgba(245,0,255,1) 100%);      */
@@ -48,15 +48,28 @@ form{
 }
 
 .contenedorResultado{
-    background-color: rgba(0, 0, 0, 0.679);
+    background-color: rgba(0, 0, 0, 0.784);
     align-items: center;
-    
+    text-align: center;
+    border-radius: 20px;
 }
 
+.resultado{
+    font-size: 55px;
+    text-align: center;
+    align-items: center;
+}
+
+
 input{
+    font-size: 24px;
+    width: 250px;
+    text-align: center;
     display: block;
     margin: auto;
     margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.666);
+    color: rgb(226, 10, 179);
 }
 
 .botonCalcular{
@@ -127,6 +140,7 @@ small>b{
         height: 70px;
         padding-top: 20px;
     }
+
   }
 
   @media only screen and (max-width: 510px) {
@@ -143,18 +157,6 @@ small>b{
 
   @media only screen and (max-width: 450px) {
     h1{
-        font-size: 30px;
-    }
-
-    .contenedorH1{
-        width: 400px;
-        height: 50px;
-        padding-top: 12px;
-    }
-  }
-
-  @media only screen and (max-width: 450px) {
-    h1{
         font-size: 25px;
     }
 
@@ -163,6 +165,13 @@ small>b{
         height: 50px;
         padding-top: 12px;
     }
+
+        .resultado{
+        font-size: 45px;
+        text-align: center;
+        align-items: center;
+    }
+
   }
 
   @media only screen and (max-width: 410px) {

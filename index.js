@@ -34,11 +34,11 @@ function calcular() {
         resultado = op1 / op2;
         break;
     }
-    pResultado.style = "color:rgb(226, 10, 179); font-size: 80px";
-    // pResultado.style = "font-size: 80px";
+    // pResultado.style = "color:rgb(226, 10, 179); font-size: 80px";
+    pResultado.style = "color:rgb(226, 10, 179)";
     pResultado.innerText = "= " + resultado;
   } else {
-    pResultado.style = "color:rgb(5, 248, 199); font-size: 40px";
-    pResultado.innerText = "¡Cálculo Imposible!";
+    pResultado.style = "color:rgb(5, 248, 199)";
+    pResultado.innerText = "¡ERROR!";
   }
 }
